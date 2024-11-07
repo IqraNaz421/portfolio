@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         src="/images/bg.jpg" 
         alt="Background"
         layout="fill"
-        objectFit="cover"
+        objectFit="cover"                
         className="opacity-30"
       />
 
