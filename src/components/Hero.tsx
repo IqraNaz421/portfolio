@@ -27,8 +27,8 @@ const Hero: React.FC = () => {
     
       <div className="z-10  text-center px-4 mb-12 md:px-8 lg:px-16">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6 mt-10 animate-fade-in">
-          Hi, <span className='text-teal-500'> I'm Iqra </span>
-        </h1>
+        <br />  Hey <br /> I  <span className='text-teal-500'>am Iqra </span> 
+        </h1> 
 
         <div className="flex justify-center mt-6 mb-8">
           <Image
@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
        
 
       <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-2xl animate-fade-in font-poppins font-semibold tracking-wide leading-relaxed">
-        I am a web developer, specializing in creating pixel-perfect, <span className='text-teal-500'>responsive, and visually appealing designs </span> <br />
+        I am a web developer specializing in creating pixel perfect <span className='text-teal-500'>responsive and visually appealing designs </span> <br />
       Lets bring creativity to the next level
      </p>
 

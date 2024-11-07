@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <div className="fixed bottom-10 right-10 z-50 animate-bounce">
       {/* Bell Icon with Text (Visible only on mobile) */}
-      <Link href="/services"
+      <Link href="/service"
         
           className="relative flex items-center justify-center bg-teal-500 p-5 rounded-full shadow-xl cursor-pointer transform transition duration-300 ease-in-out hover:scale-110 hover:rotate-6">
         

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { FC } from 'react';
+import Image from 'next/image';
 
 const About: FC = () => {
   return (
@@ -14,9 +15,11 @@ const About: FC = () => {
         
         {/* Left Side - Profile Picture */}
         <div className="flex-shrink-0 w-full lg:w-1/3 flex justify-center lg:justify-start lg:pl-8 xl:pl-12 mb-8 lg:mb-0">
-          <img
+          <Image
             src="/images/iqra.jpg" // Replace with your image path
             alt="Your Name"
+            width={100}
+            height={100}
             className="w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full shadow-lg border-4 border-teal-500 object-cover transform hover:scale-105 transition-transform duration-300 ease-in-out"
           />
         </div>
@@ -24,14 +27,14 @@ const About: FC = () => {
         {/* Right Side - About and Skills */}
         <div className="w-full lg:w-2/3 space-y-10 text-center lg:text-left">
           
-          {/* About Section */}
+          
           <div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">About Me</h2>
 
 <div className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 space-y-4">
   
   <p>
-    I’m a UI/UX designer and frontened  developer passionate about creating engaging and user-friendly digital experiences.
+    I am a UI/UX designer and frontened developer passionate about creating engaging and user friendly digital experiences
   </p>
 
 
@@ -60,7 +63,7 @@ const About: FC = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
         </svg>
       </span>
-      <span className="text-white">Analytical approach to problem-solving</span>
+      <span className="text-white">Analytical approach to problem solving</span>
     </li>
   </ul>
 </div>
@@ -74,7 +77,7 @@ const About: FC = () => {
 <button
   className="relative px-8 py-3 border-2 border-teal-500 text-white font-semibold text-lg rounded-full shadow-lg transition duration-300 ease-in-out transform hover:bg-teal-600 hover:scale-105 flex items-center animate-pulse space-x-2"
 >
-<Link href="" target="_blank" rel="noopener noreferrer">
+<Link href="/images/cv/mycv.pdf" target="_blank" rel="noopener noreferrer">
       <span className="text-white hover:bg-teal-600 font-semibold text-lg transition-all duration-200 transform hover:scale-105">
         Hire Me
       </span>
@@ -90,29 +93,6 @@ const About: FC = () => {
 </button>
 
 
-
-
-
-  
-
-{/* <div>
-  <h3 className="text-3xl sm:text-4xl lg:text-5xl underline font-semibold text-white mb-6">Skills</h3> <br />
-  <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6">
-    {["HTML", "CSS", "JavaScript", "Next.js", "TypeScript", "UI/UX"].map((skill, index) => (
-      <div
-        key={skill}
-        className={`w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full bg-teal-500 flex items-center justify-center shadow-lg transform transition-transform duration-300
-                    animate-bounce-slow delay-${index * 100}`}
-      >
-        <p className="text-sm sm:text-md font-semibold text-white">{skill}</p>
-      </div>
-    ))}
-  </div>
-</div> */}
-
-
-
-
 <div className="w-full max-w-5xl mx-auto mt-16 lg:mt-24 p-10 rounded-2xl shadow-2xl bg-gradient-to-r from-gray-900 to-gray-800 bg-opacity-90 backdrop-blur-lg px-4 sm:px-6">
   <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 text-center tracking-wide">
     Ca<span className="text-teal-500">reer</span> Jour<span className="text-teal-500">ney</span>
@@ -121,7 +101,7 @@ const About: FC = () => {
   <hr className="border-t-2 border-teal-500 w-20 mx-auto mb-6" />
 
   <p className="text-gray-300 text-lg leading-relaxed text-center lg:text-left transition-transform duration-300 ease-in-out hover:scale-105">
-    My programming journey began in [2023], driven by a deep curiosity and fascination for technology. Since then, I’ve immersed myself in the world of web development, constantly learning and building new skills. With each project, I grow more confident and excited about what I can create.
+    My programming journey began in 2023 driven by a deep curiosity and fascination for technology Since then I have immersed myself in the world of web development constantly learning and building new skills With each project I grow more confident and excited about what I can create
   </p>
 
   <div className="flex justify-center mt-8">

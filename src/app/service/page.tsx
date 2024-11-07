@@ -2,7 +2,7 @@
 import { FC } from 'react';
 import { FaLaptop, FaMobileAlt, FaPaintBrush, FaCog, FaBullhorn, FaServer } from 'react-icons/fa';
 
-const Services: FC = () => {
+const Service: FC = () => {
   return (
     <div
     
@@ -78,4 +78,4 @@ const Services: FC = () => {
   );
 };
 
-export default Services;
+export default Service;

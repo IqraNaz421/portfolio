@@ -54,7 +54,7 @@ const Contact = () => {
         
         <div className="bg-gray-800 bg-opacity-70 p-6 rounded-lg border-2 border-teal-500 shadow-lg flex items-center gap-3 w-full mb-4">
           <FaMapMarkerAlt className="text-neon text-xl" />
-          <span className="text-lg">123 Main Street, Karachi</span>
+          <span className="text-lg">123 Main Street Karachi</span>
         </div>
       </div>
 
