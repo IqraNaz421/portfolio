@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
     
       <div className="z-10  text-center px-4 mb-12 md:px-8 lg:px-16">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6 mt-10 animate-fade-in">
-        <br />  Hey <br /> I  <span className='text-teal-500'>am Iqra </span> 
+        <br />  Hey <br /> I <span className='text-teal-500'>am Iqra </span> 
         </h1> 
 
         <div className="flex justify-center mt-6 mb-8">
