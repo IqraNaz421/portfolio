@@ -13,22 +13,22 @@ interface Project {
 const Content: React.FC = () => {
   const projects: Project[] = [
     { 
+      name: 'Car Rental', 
+      image: '/images/rent.jpeg', 
+      link: 'https://q2-hakhathon-car-rent-shop-9fr1.vercel.app/', 
+      description: 'A modern car rental website built with React and Next.js for easy and fast booking.' 
+    },
+    { 
       name: 'Blog', 
-      image: '/images/blog-t.jpg', 
-      link: 'https://project1.com', 
-      description: 'A modern blog website built with React and Next.js for better performance.' 
+      image: '/images/b.jpeg', 
+      link: 'https://dynamic-blog-website-one.vercel.app/', 
+      description: 'A modern blog website built with Next.js for fast performance and seamless user experience.' 
     },
     { 
-      name: 'E-commerce', 
-      image: '/images/ecommerce.jpeg', 
-      link: 'https://project2.com', 
-      description: 'A full-stack ecommerce website built with HTML, CSS, and JavaScript.' 
-    },
-    { 
-      name: 'Portfolio', 
-      image: '/images/port.jpg', 
-      link: 'https://project3.com', 
-      description: 'A dynamic portfolio website with animations and a smooth user experience.' 
+      name: 'Baby Shop', 
+      image: '/images/baby.jpeg', 
+      link: 'https://baby-baba-shop.vercel.app/', 
+      description: 'A caring baby shop website offering a wide range of baby products for all your little one\'s needs.' 
     },
   ];
 
@@ -44,7 +44,7 @@ const Content: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="project-card bg-gray-800 border-2 border-teal-600 rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300 hover:shadow-2xl animate-zoomIn"
+              className="project-card bg-gray-800 rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300 hover:shadow-2xl animate-zoomIn"
             >
               <Image
                 src={project.image}
@@ -103,3 +103,10 @@ const Content: React.FC = () => {
 };
 
 export default Content;
+
+
+
+
+
+
+

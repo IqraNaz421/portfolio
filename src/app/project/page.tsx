@@ -13,16 +13,28 @@ interface Project {
 const Projects: React.FC = () => {
   const projects: Project[] = [
     { 
-      name: 'Blog', 
-      image: '/images/blog-t.jpg', 
-      link: 'https://my-app-delta-two-79.vercel.app/', 
-      description: 'A modern blog website built with React and Next.js for better performance.' 
+      name: 'Car Rental', 
+      image: '/images/rent.jpeg', 
+      link: 'https://q2-hakhathon-car-rent-shop-9fr1.vercel.app/', 
+      description: 'A modern car rental website built with React and Next.js for easy and fast booking.' 
     },
     { 
-      name: 'E-commerce', 
-      image: '/images/ecommerce.jpeg', 
-      link: 'https://new-e-commerce-4d2v.vercel.app/', 
-      description: 'A full-stack ecommerce website built with html , css and javascript.' 
+      name: 'Blog', 
+      image: '/images/b.jpeg', 
+      link: 'https://dynamic-blog-website-one.vercel.app/', 
+      description: 'A modern blog website built with Next.js for fast performance and seamless user experience.' 
+    },
+    { 
+      name: 'Baby Shop', 
+      image: '/images/baby.jpeg', 
+      link: 'https://baby-baba-shop.vercel.app/', 
+      description: 'A caring baby shop website offering a wide range of baby products for all your little one\'s needs.' 
+    },
+    { 
+      name: 'Perfume', 
+      image: '/images/p.jpeg', 
+      link: 'https://my-perfume-store-s5tl.vercel.app/', 
+      description: 'An elegant perfume website with a smooth shopping experience and rich fragrance collections.' 
     },
     { 
       name: 'Portfolio', 
@@ -35,6 +47,12 @@ const Projects: React.FC = () => {
       image: '/images/list.jpeg', 
       link: 'https://to-do-list-app-three-dusky.vercel.app/', 
       description: 'A mobile-responsive dashboard application with real-time data integration.' 
+    },
+    { 
+      name: 'Ice Cream Shop', 
+      image: '/images/ice.jpg', 
+      link: 'https://ice-creame-site.vercel.app/', 
+      description: 'A delightful ice cream website offering a variety of flavors and delicious treats for all ages.' 
     },
     { 
       name: 'Static Resume', 
@@ -61,7 +79,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="project-card bg-gray-800 border-2 border-teal-600 rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300 hover:shadow-2xl animate-zoomIn"
+              className="project-card bg-gray-800  rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition-all duration-300 hover:shadow-2xl animate-zoomIn"
             >
               <Image
                 src={project.image}
@@ -104,9 +122,11 @@ const Projects: React.FC = () => {
         </div>
         {/* Scroll Down Button with Hover Effect */}
         <div className="flex justify-center mt-10">
+          <Link href="/project">
           <button className="text-teal-500 font-semibold text-2xl transform hover:scale-110 transition-all duration-300 hover:text-teal-400">
             &#8595; Scroll Down
           </button>
+          </Link>
         </div>
       </div>
       </div>
