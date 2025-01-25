@@ -42,13 +42,13 @@ const Contact = () => {
        
         <div className="bg-gray-800 bg-opacity-70 p-6 border-2 border-teal-500 rounded-lg shadow-lg flex items-center gap-3 w-full mb-4">
           <FaPhoneAlt className="text-neon text-xl" />
-          <span className="text-lg">+92 65432689</span>
+          <span className="text-lg">+92 3160289050</span>
         </div>
 
         
         <div className="bg-gray-800 bg-opacity-70 p-6 border-2 border-teal-500 rounded-lg shadow-lg flex items-center gap-3 w-full mb-4">
           <FaEnvelope className="text-neon text-xl" />
-          <span className="text-lg">iqranaz@gmail.com</span>
+          <span className="text-lg">iqoonaz4321@gmail.com</span>
         </div>
 
         
