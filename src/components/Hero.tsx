@@ -129,8 +129,8 @@ const Hero: React.FC = () => {
         {/* Description */}
         <p className="text-base md:text-lg lg:text-xl text-gray-300 max-w-2xl font-poppins font-semibold tracking-wide leading-relaxed">
           I am a web developer specializing in creating pixel-perfect{' '}
-          <span className="text-teal-500">responsive and visually appealing designs</span>. <br />
-          Let's bring creativity to the next level.
+          <span className="text-teal-500">responsive and visually appealing designs</span> <br />
+          Lets bring creativity to the next level
         </p>
 
         {/* Explore Button */}

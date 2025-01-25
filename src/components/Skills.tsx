@@ -112,17 +112,17 @@ import { SiTypescript, SiNextdotjs } from 'react-icons/si';
 const SkillsSection: React.FC = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  const scrollLeft = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -200, behavior: 'smooth' });
-    }
-  };
+  // const scrollLeft = () => {
+  //   if (scrollContainerRef.current) {
+  //     scrollContainerRef.current.scrollBy({ left: -200, behavior: 'smooth' });
+  //   }
+  // };
 
-  const scrollRight = () => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 200, behavior: 'smooth' });
-    }
-  };
+  // const scrollRight = () => {
+  //   if (scrollContainerRef.current) {
+  //     scrollContainerRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     <div className="bg-gradient-to-r from-black via- to-black text-white py-20">
